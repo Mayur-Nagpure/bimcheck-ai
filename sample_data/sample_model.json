@@ -1,0 +1,48 @@
+{
+  "project_name": "Demo Office Building",
+  "units": "meters",
+  "elements": [
+    {
+      "id": "W-001",
+      "type": "Wall",
+      "length": 5.2,
+      "height": 3.0,
+      "thickness": 0.2
+    },
+    {
+      "id": "D-001",
+      "type": "Door",
+      "width": 0.9,
+      "height": 2.1,
+      "host_wall_id": "W-001"
+    },
+    {
+      "id": "WIN-001",
+      "type": "Window",
+      "width": 1.4,
+      "height": 1.2,
+      "host_wall_id": "W-999"
+    },
+    {
+      "id": "F-001",
+      "type": "Floor",
+      "length": 8.0,
+      "width": 6.0,
+      "thickness": 0
+    },
+    {
+      "id": "C-001",
+      "type": "Column",
+      "width": 0.4,
+      "depth": 0.4,
+      "height": 3.2
+    },
+    {
+      "id": "W-001",
+      "type": "Wall",
+      "length": 4.0,
+      "height": 3.0,
+      "thickness": 0.2
+    }
+  ]
+}
